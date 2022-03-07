@@ -41,14 +41,68 @@ form>span{
     height: 200px;
     width: 250px;
     vertical-align: top;
+    margin-left: 2%;
 }
 .reservado{
     display: block;
     font-size: 15px;
     text-align: center;
 }
+nav, main{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 70%;
+}
+img{
+    margin-right: 35px;
+}
+p{
+    max-width: 835px;
+    text-align: justify;
+}
+.logo{
+    margin-left: 2%;
+}
+/* ajuste-imagenes fue creado para alinear como fila las imagenes ya que en el curso no estaba*/
+.ajuste-imagenes{
+    display: flex;
+    flex-direction:row;
+}
+.contenedor-flex{
+    display: flex;
+    background-color: lightblue;
+    flex-direction: row;
+    /*column*/
+    /*column-reverse*/
+    /*row-reverse*/
 
+    flex-wrap: wrap;
+    /*now-rap*/
+    /*wrap-reverse*/
 
+    align-items: stretch;
+    /*vertical*/
+    /*center*/
+    /*flex-start*/
+    /*flex-end*/
 
+    justify-content: space-around;
+    /*horizontal*/
+    /*space-betwen*/
+    /*center*/
 
+    align-content: space-between;/*varias filas del contenedor flex*/
+    /*space-arround*/
+    /*strech*/
+    /*flex-start*/
+    /*flex-end*/
+}
+.primer-contenedor{
+    width: 33%;
+}
+.segundo-contenedor{
+    width: 33%;
+}
 
