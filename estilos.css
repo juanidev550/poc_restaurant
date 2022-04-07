@@ -1,213 +1,23 @@
-body{
-    background-color: lightcyan;
+.body{
     margin: 0%;
     padding: 0%;
 }
-header{
-    background-color: navy;
-    background:linear-gradient(to top right, lightcyan, orange);
-    position: relative;
-    top: 0px;
+.covid-19-anuncio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-header>a{
-    position: sticky;
-    left: 0%;
+.covid-title{   
+    font-family: Playfair Display;
+    padding: 1%;
 }
-.color-footer {
-    background-color: navy;
-    color: orange;
-    background:linear-gradient(to bottom right, lightcyan, orange);
-    max-width: 100%;
+
+.navbar{
+    margin: 1%;
 }
-#estilo-formulario {
-    font-size: 20px;
-    padding: 20px;
-    background-color: white;
+.color-link-covid{
+    color: crimson;
 }
 a:hover{
-    background-color: orange;
-}
-nav a{
-    font-size: 25px;
-    font-family:cursive,sans-serif;
-}
-*{
-    font-family: "Arial, Helvetica", sans-serif, sans-serif;
-}
-h1,h2 {
-    font-size: 20px;
-}
-p::selection{
-    background-color: orange;
-}
-form>span{
-    color: darkblue;
-}
-.colocacion-en-linea{
-    display: inline-block;
-    font-size: 20px;
-    margin-top: 20px;
-    margin-bottom: 10px;
-}
-.estilo-direccion{
-    height: 200px;
-    width: 250px;
-    vertical-align: top;
-    margin-left: 2%;
-    position: relative;
-    bottom: -20px;
-    color: black;
-}
-.reservado{
-    display: block;
-    font-size: 15px;
-    text-align: center;
-    color: black;
-}
-nav, main{
-    margin-top: 2%;
-    margin-bottom: 2%;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 90%;
-}
-img{
-    margin-right: 35px;
-}
-p{
-    max-width: 835px;
-    text-align: justify;
-}
-.logo{
-    margin-left: 2%;
-}
-/* ajuste-imagenes fue creado para alinear como fila las imagenes ya que en el curso no estaba*/
-.ajuste-imagenes{
-    display: flex;
-    flex-direction:row;
-}
-.contenedor-flex{
-    display: flex;
-    width: 800px;
-    height: 100px;
-    border-radius: 15px;
-    padding: 15px;
-    background-color: lightblue;
-    flex-direction: row;
-    /*column*/
-    /*column-reverse*/
-    /*row-reverse*/
-
-    flex-wrap: wrap;
-    /*now-rap*/
-    /*wrap-reverse*/
-
-    align-items: center; /*vertical*/
-    /*stretch*/
-    /*flex-start*/
-    /*flex-end*/
-
-    justify-content: space-evenly; /*horizontal*/
-    /*space-betwen*/
-    /*space-around*/
-    /*center*/
-
-    align-content: space-between;/*varias filas del contenedor flex*/
-    /*space-arround*/
-    /*strech*/
-    /*flex-start*/
-    /*flex-end*/
-}
-.primer-contenedor{
-    width: 33%;
-}
-.segundo-contenedor{
-    width: 33%;
-}
-.tercer-contenedor{
-    width: 33%;
-}
-.contenedor-anuncio-publicitario{
-    display: inline-block;
-}
-/*el class anuncio-publicitario fue creado para
- tratar de colocar el anuncio en la parte superior derecha del documento */
-.anuncio-publicitario1{
-    position: relative;
-    top: -215px; 
-    bottom: 1000px;
-    left: 900px;
-    /*pasaron dos dias hasta que me di cuenta que el top tambien puede ser negativo -*/
-    margin-top: -1500px;
-   /*margin-left: 1000px;*/
-}
-.anuncio-publicitario2{
-    position: relative;
-    top: -940px; 
-    bottom: 1000px;
-    left: 580px;
-    margin-top: -1500px;
-}
-.alinear{
-    margin-top: -2%;
-    margin-bottom: 2%;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 90%;
-}
-.anuncio{
-    vertical-align: top;
-    height: 725px;
-    width: 250px;
-    margin-top: 87px;
-    animation-name: oferta;
-    animation-duration: 1s;
-    animation-iteration-count: 5;
-}
-@keyframes oferta{
-    from{trans: scale(1.5);}
-    to{trans: scale(1.0);}
-}
-/*
-@media(max-width:1645px){
-    .anuncio{display:none;}
-}
-*/
-
-/*implementacion de efecto especial en las imagenes*/
-#imagen1{
-    box-shadow: -15px -10px 100px orange, 5px 5px 100px lightslategray ;
-}
-#imagen2{
-    box-shadow: -15px -10px 100px orange, 5px 5px 100px lightslategray ;
-}
-
-#imagen3{
-    box-shadow: -15px -10px 100px orange, 5px 5px 100px lightslategray ;
-}
-#imagen4{
-    box-shadow: -15px -10px 100px orange, 5px 5px 100px lightslategray ;
-}
-/*implementacion de efectos especiales a los titulos*/
-#titulo-hamburguesas{
-    margin-bottom: 10%;
-    text-shadow: -1px -1px 0px black ;
-    font-size: 40px;
-    font-family:cursive,sans-serif;
-}
-#titulo-sanwiches{
-    text-shadow: -1px -1px 0px black ;
-    font-size: 40px;
-    font-family:cursive,sans-serif;
-}
-
-#separacion-sandwiches{
-    margin-bottom: 11%;
-}
-#aside1{
-    margin-top: 5%;
-    margin-bottom: 0,5%;
-}
-#tabla-horarios{
-    margin-left: 4%;
+    color: crimson;
 }
